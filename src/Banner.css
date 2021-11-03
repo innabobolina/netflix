@@ -1,0 +1,34 @@
+.banner {
+    object-fit: contain;
+    /* color: white */
+}
+
+.banner_title {
+    margin-top: 0;
+    padding: 10px 0;
+}
+
+.banner_contents {
+    margin-left: 20px
+}
+
+.banner_button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    background-color: grey;
+}
+
+.banner_button:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.5s;
+}
+
+h3 {
+    margin-top: 10px
+}

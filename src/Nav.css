@@ -1,0 +1,12 @@
+.nav_contents {
+    display: flex;
+    justify-content: space-between
+}
+
+.nav {
+    background: #111
+}
+
+.nav_avatar {
+    padding: 25px
+}
