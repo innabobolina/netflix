@@ -23,7 +23,7 @@
 }
 
 .row_poster:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     opacity: 1;
 }
 
@@ -32,6 +32,6 @@
 }
 
 .row_posterLarge:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
     opacity: 1;
 }
