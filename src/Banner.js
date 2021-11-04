@@ -28,8 +28,8 @@ export default function Banner() {
     <header
       className="banner"
       style={{
-        backgroundImage: `url("https://i.imgur.com/e1hLQ2m.png")`,
-        // backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
+        // backgroundImage: `url("https://i.imgur.com/e1hLQ2m.png")`,
+        backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
         backgroundSize: "cover",
         backgroundPosition: "center center",
         height: "500px",
@@ -37,17 +37,13 @@ export default function Banner() {
     >
       <div className="banner_contents">
         <h1 className="banner_title">
-          Movie Name
           {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className="banner_buttons">
           <button className="banner_button">Play</button>
           <button className="banner_button">My List</button>
         </div>
-        <h3>
-          This is a test description...
-          {/* {truncate(movie?.overview, 50)} */}
-        </h3>
+        <h3>{truncate(movie?.overview, 250)}</h3>
       </div>
     </header>
   );
