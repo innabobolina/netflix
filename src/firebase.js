@@ -1,3 +1,9 @@
+// import firebase from "firebase";
+// import * as firebase from "firebase";
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyD0Eu2AdINlGFSEqeDtyEk1ir1hpOxlZo8",
   authDomain: "netflix-6ee3f.firebaseapp.com",
