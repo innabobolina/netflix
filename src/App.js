@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import HomeScreen from "./HomeScreen";
 import LoginScreen from "./LoginScreen";
+import ProfileScreen from "./ProfileScreen";
 import "./App.css";
 import "./Banner.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
@@ -36,6 +37,7 @@ function App() {
           <LoginScreen />
         ) : (
           <Routes>
+            <Route path="/profile" element={<ProfileScreen />} />
             <Route exact path="/" element={<HomeScreen />} />
           </Routes>
         )}
