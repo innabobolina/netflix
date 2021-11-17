@@ -1,7 +1,12 @@
 import React from "react";
 import "./Nav.css";
+// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Nav() {
+  // const history = useHistory();
+  const navigate = useNavigate();
+
   return (
     <div className="nav">
       <div className="nav_contents">
@@ -12,6 +17,7 @@ function Nav() {
           alt=""
         />
         <img
+          onClick={() => navigate("/profile")}
           height="50px"
           className="nav_avatar"
           src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/366be133850498.56ba69ac36858.png"
