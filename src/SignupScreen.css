@@ -12,7 +12,7 @@
 
 .signupScreen>form>input {
     margin-bottom: 14px;
-    width: 100%;
+    /* width: 100%; */
     border: none;
     outline-width: 0;
     height: 40px;
@@ -31,6 +31,10 @@
     border-radius: 5px;
     width: 300px;
     margin-bottom: 20px;
+}
+
+.signupScreen>form>h1 {
+    margin-bottom: 10px;
 }
 
 .signupScreen_gray {

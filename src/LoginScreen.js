@@ -24,10 +24,10 @@ function LoginScreen() {
           <>
             <h1>Unlimited films, TV programmes and more.</h1>
             <h2>Watch Anywhere. Cancel at any time.</h2>
-            <h3>
+            <h4>
               Ready to watch? Enter your email to create or restart your
               membership.
-            </h3>
+            </h4>
             <div className="loginScreen_input">
               <form>
                 <input type="email" placeholder="Email Address" />
